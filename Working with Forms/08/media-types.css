@@ -1,0 +1,53 @@
+*{
+    padding:0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+html{
+    font: 14px / 1.5 Lato,sans-serif;
+}
+
+body, input, textarea, select, option{
+    font:inherit;
+}
+
+.code{
+    display:block;
+    padding:2em 2em 2em 2em;
+    border-radius: 0.3em;
+    border: 1px solid #ccc;
+    margin: 2em 0;
+    margin-bottom: 2em;
+    overflow: auto;
+    background-color: #ccc;
+}
+
+fieldset {
+    padding: 2em; /* Вътрешен отстъп от 2em */
+    border: 2px solid #ccc; /* Граница с дебелина 2px, цвят #ccc и стил solid */
+    max-width: 50ch; /* Максимална ширина от 50ch (отмерена в символи на шрифт) */
+   
+}
+
+
+fieldset input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 0.3em;
+    border: 2px solid #ccc;
+}
+
+.field {
+    padding-bottom: 1.5em;
+}
+
+fieldset legend {
+    padding: 0 1em; /* Вътрешен отстъп от 0 отляво и отдясно и 1em отгоре и отдолу */
+    font-weight: bold; /* Удебелен текст */
+}
