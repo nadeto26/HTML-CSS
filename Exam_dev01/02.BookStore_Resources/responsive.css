@@ -1,0 +1,35 @@
+@media (max-width: 600px)
+{
+
+    body{
+        font-size: 16px;
+    }
+    .home-header{
+        padding: 12px 0;
+    }
+
+    .home-header .navbar-link{
+        display:none;
+    }
+
+    .Heading-2{
+        font-size: 21px;
+    }
+
+    h1.section-heading-text{
+        margin:0;
+    }
+
+    .section-heading-section-heading{
+        margin: 0 0 20px 0;
+    }
+
+    .home-container
+    {
+    padding-top: 40px;
+    }
+
+    .home-cards-container{
+        grid-gap: 20px;
+    }
+}

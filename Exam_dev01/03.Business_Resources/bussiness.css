@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.final{
+    background-color: #171720;
+    color: white;
+}
+
+body{
+    background-image: url('images/background.jpg');
+    background-position: center -50em;
+    background-repeat: no-repeat;
+    background-size: 3000px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+  
+}
+hr {
+    height: 0.5px;
+}
+
+.final ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+td, th{
+    padding-left: 100px;
+    font-family: "PT Sans";
+    line-height: 2em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 12px;
+}
+
+header{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-transform: none;
+    color: white;
+    font-size: 16px;
+     
+    
+}
+
+.more-information{
+    padding-bottom: 2em;
+}
+
+footer{
+    color: #ccc;
+    padding-left: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+hr.thin {
+    border: none;
+    height: 1px;
+    color: #333;  /* old IE */
+    background-color: #333;  
+}
+
+.section-bisuness{
+   
+    display: flex;
+    flex: auto;
+     
+}
+
+.sponsors{
+     text-align: center;
+      
+}
+
+.sponsor-title{
+    padding-bottom: 0.6em;
+    padding-top: 1em;
+    color: #B48965;
+    font-family: "PT Serif";
+    font-weight: normal;
+}
+
+ 
+
+.paragraph{
+    padding-bottom: 2em;
+}
+
+.img-sponsor{
+justify-content: center;
+display: flex;
+
+}
+
+.img-sponsor2{
+    width: 110px;
+    height: auto;
+    margin: 2em;
+    border: 1em solid #ccc;
+    background-color: #ccc;
+    border-radius: 6em;
+}
+
+.sponsor-p2{
+    padding-bottom: 2em;
+}
+
+.title{
+     padding-left: 5em;
+     font-size: 50px;
+     color:white;
+     padding-bottom: 0.6em;
+}
+
+.main{
+    padding-left: 16em;
+    padding-right: 48em;
+    padding-bottom: 10em;
+    color: white;
+}
+
+.section{
+    background-color: white;
+}
+
+.sponsors
+{
+    background-color: white;
+}
+
+.main-nav ul{
+    display: flex;
+    padding-left: 70em;
+   
+    }
+    
+    .main-nav li{
+        display: block;
+       
+    }
+    
+    .main-nav a{
+        display: block;
+        padding: 0.5em 1em;
+        color: white;
+        list-style: none;
+        padding-bottom: 2em;
+    }
+
+    .logo{
+        margin-left: 5em;
+        padding-top: 2em;
+        width: 5em;
+        height: auto;
+    }
