@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    padding:0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Inter", sans-serif;
+    padding: 2em;
+    margin: 0 auto;
+    background-image: url('./images/background.jpg');
+  background-position: center;
+  align-items: stretch;
+  background-size: cover;
+  justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    
+}
+
+.person1
+{
+    display:flex;
+    background-color: white;
+}
+
+.person1{
+    padding: 2em;
+     
+    width: 700px;
+    height: 300px;
+    font-size: 18px;
+    margin-bottom: 2em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.5);
+}
+.tekst1{
+    padding-top: 3em;
+}
+.image1{
+    width: 150px; /* Ширината на изображението */
+    height: 150px; /* Височината на изображението трябва да е същата като ширината */
+    border-radius: 50%; /* Това прави изображението кръгло */
+}
+
+.container{
+    display: block;
+    padding-left: 2em;
+}
+
+.main-container .person3{
+    padding-left: 5em;
+}
+
+.person2{
+   
+    display: flex;
+    padding: 2em;
+     
+    width: 700px;
+    height: 300px;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.5);
+}
+
+.person3
+{
+     
+    width: 500px;
+    height: auto;
+    font-size: 17px;
+    margin-left: 2em;
+     background-color: white;
+     box-shadow: 0 0 1em 0 rgb(0,0,0,0.5);
+}
+
+.end{
+    display: flex;
+    padding-top: 5em;
+}
+
+hr{
+    position: relative;
+    top: 4em;  /* Премества надолу */
+     
+}
+ 
+
+.name{
+    display: block;
+    padding-top: 3em;
+    padding-left: 1em;
+}
+
+.section{
+    padding-top: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+}
+
+.p3{
+    padding-top: 2em;
+}
+

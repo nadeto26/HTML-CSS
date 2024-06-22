@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+*{
+    padding:0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: "Inter";
+ padding: 2em;
+ 
+}
+
+.section{
+    display: flex;
+    background-color: white;
+}
+
+.main{
+    background-color: #ccc;
+    width: 100%;
+  height: 610px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: auto;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+    background-image: url("./images/background.jpg");
+  background-position: bottom;
+}
+
+.image{
+    width: 400px;
+    height: auto;
+}
+
+.office1{
+    display: flex;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.office2{
+    display: flex;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.office3{
+    display: flex;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.tekst{
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.article{
+    padding-bottom: 1em;
+}
+
+h3{
+    padding-bottom: 1em;
+}
+
+.author{
+    padding-top: 1em;
+}
+
+.main-part2{
+    background-color: #ccc;
+}
+
+.the-last-section{
+    display: flex;
+    width: 1350px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2em;
+    
+    margin-top: 2em;
+    
+}
+
+h1{
+    padding-bottom:2em;
+}
+
+.lorem{
+    margin-right: 2em;
+}
+
+.color{
+     background-color: #F5F5F5;
+}
+
+.container2{
+    width: 600px;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    height: 300px;
+    background-color: #FF7C4C;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.8em;
+    padding-top: 2em;
+    font-size: 14px;
+}
+
+.button{
+    
+    
+    border-radius: 4px;
+    margin-left: 9em;
+    margin-top: 1em;
+    color: white;
+    text-decoration: none;
+    width: 6em;
+    height: 2em;
+    background-color: black;
+    font-weight: normal;
+     text-align: center;
+ 
+}
+
+.button a {
+    color: white; 
+    text-decoration: none;  
+    font-size: 10px;
+   
+}
+
+.button-2{
+    border-radius: 4px;
+    margin-left: 9em;
+    margin-top: 1em;
+    color: white;
+    text-decoration: none;
+    width: 6em;
+    height: 2em;
+    background-color: white;
+    font-weight: normal;
+     text-align: center;
+}
+
+.button-2 a{
+    color: black; 
+    text-decoration: none;  
+    font-size: 10px;
+}
+
+.container3{
+    width: 600px;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.8em;
+    padding-top: 2em;
+    font-size: 14px;
+    
+}
+
+.price{
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.home-social-bar {
+    width: 100%;
+    height: 100px;
+    padding-top: 2em;
+    display: flex;
+   
+    justify-content: center;
+    background-color: #d9d9d9;
+    justify-content:space-evenly;
+    font-size: 20px;
+  }
+
+
+.main-nav{
+    background-color: #ccc;
+    
+}
+  .main-nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 5em;
+     
+    }
+    
+    .main-nav li{
+        display: block;
+        list-style: none;
+    }
+    
+    .main-nav a{
+        display: block;
+        padding: 1em 1em;
+        
+        color: black;
+        text-decoration: none;
+        
+    }
+
+.button-buy{
+    margin-left: 52em;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
