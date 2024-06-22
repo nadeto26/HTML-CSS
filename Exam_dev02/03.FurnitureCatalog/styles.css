@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap ');
+
+*{
+    padding: 0%;
+    margin:0;
+    box-sizing: border-box;
+}
+
+img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+html{
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+body,input,textarea,button{
+font:inherit;
+}
+
+h1 {font-size: 2.4em;}
+h2 {font-size: 2.0em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em;}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul{
+display: flex;
+}
+
+.main-nav li{
+    display: block;
+    list-style:none;
+}
+
+.main-nav a{
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.section .wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-catalog{
+    background-color: #60ACC1;
+}
+
+.section .wrapper.wide{
+    max-width: 1800px;
+}
+
+.site-footer{
+    background: #2d333c;
+    color: white;
+    text-align: center;
+}
+
+
+.site-footer .wrapper{
+    padding: 1em 0;
+}
+
+.flex-column{
+    display:flex;
+    justify-items: center;
+}
+
+
+
+.flex-column.c2 > * {
+    flex: 1 1 45%;
+}
+
+.section-catalog .flex-column.c2{
+    gap: 5em;
+}
+
+
+.flex-column.c3 > * {
+    flex: 0 0 40%;
+}
+
+
+
+
+.section-banner,
+.section-about,
+.section-catalog header{
+text-align: center;
+}
+
+.section-about header{
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.section-about{
+    padding-bottom: 2em;
+}
+
+ 
+.section-catalog header h3{
+ font-size: 2em;
+}
+
+.section-catalog .wrapper{
+    padding: 2em 0 2em;
+}
+
+.section-catalog header{
+    padding-bottom: 2em;
+}
+
+.section-catalog .flex-column.c3{
+    gap: 2em;
+}
+
+.section-catalog .flex-column.c3 img{
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.4);
+}
+
+.section-catalog .flex-column.c2 article{
+    display:flex;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+}
+
+.section-catalog .flex-column.c2 article h4{
+    font-size: 1em;
+    text-align: center;
+}
+
+.section-catalog .flex-column.c2 article .media img
+{
+  height: 100%;
+  width:auto;
+}
+
+.section-catalog .flex-column.c2 article .media {
+    overflow: hidden;
+}
+
+.section-catalog .flex-column.c2 article > * {
+flex: 0 0 50%;
+}
+
+.section-catalog .flex-column.c2 article .media {
+    overflow: hidden;
+
+}
+
+.section-catalog .flex-column.c2 article section{
+    background-color: white;
+    padding: 1em;
+}
+
+.section-catalog .flex-column.c2 article .media img{
+     height: 100%;
+     width: auto;
+}
