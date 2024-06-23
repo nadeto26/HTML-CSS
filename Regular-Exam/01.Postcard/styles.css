@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font: 16px /1.5 'Gochi Hand', sans-serif;
+}
+
+
+body{
+    
+background-color: #ccc;
+padding: 2em;
+
+}
+
+
+
+.main-section{
+    width: 780px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 2em;
+    background-color: white;
+    padding: 2em;
+    font-size: 15px;
+    text-align: center;
+    position: absolute; /* Абсолютно позициониране на вътрешния div */
+    bottom: 0; 
+    left: 25%;
+     
+}
+
+.main-last{
+    background-image: url("/Regular-Exam/01.Postcard/01.Postcard_Resources/images/nature.jpg");
+    background-size: cover; /* Фонът ще покрива целия контейнер */
+    width: 1200px;
+    height: 700px;
+    background-position: center; 
+    margin: 0 auto;
+    border-radius: 2em;
+}
+
+.all{
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 2em;
+}
+
+ .tekst{
+    padding-top: 2em;
+    padding-left: 6em;
+    padding-bottom: 2em;
+    line-height: 2em;
+ }
+
+ .container{
+    padding-top: 2em;
+ }
+
+ h1{
+    padding-bottom: 0.6em;
+ }
+ 
